@@ -97,13 +97,42 @@ fb: http://ogp.me/ns/fb#
     </a>
 
         </div>
+        <div class="kc_fab_wrapper"></div>
 </div>
 
             <script src="../../assets/js/all-nocdn.js"></script><script>
+                var links = [
+                        {
+                            "bgcolor": "#F44336",
+                            "icon": "<i class='fa fa-share-square-o'></i>",
+                        },
+                        {
+                            "color": "#fffff",
+                            "target": "_blank",
+                            "url": "https://twitter.com/",
+                            "bgcolor": "#55ACEE",
+                            "icon": "<i class='fa fa-twitter'></i>",
+                        },
+                        {
+                            "color": "#fffff",
+                            "target": "_blank",
+                            "url": "https://github.com/",
+                            "bgcolor": "#666666",
+                            "icon": "<i class='fa fa-github-square'></i>",
+                        },
+                        {
+                            "color": "#fffff",
+                            "target": "_blank",
+                            "url": "https://www.facebook.com",
+                            "bgcolor": "#3B5998",
+                            "icon": "<i class='fa fa-facebook'></i>",
+                        },
+                ];
 
             $(document).ready(function() {
                 // This command is used to initialize some elements and make them work properly
                 $.material.init();
+                    $('.kc_fab_wrapper').kc_fab(links);
             });
 
             $(window).on("resize", function() {
