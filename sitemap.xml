@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>https://Epidemiologia.github.io/</loc>
+  <lastmod>2016-02-15T13:44:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://Epidemiologia.github.io/2016/</loc>
+  <lastmod>2016-02-15T13:44:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://Epidemiologia.github.io/archive.html</loc>
+  <lastmod>2016-02-15T19:21:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://Epidemiologia.github.io/categories/</loc>
+  <lastmod>2016-02-15T12:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://Epidemiologia.github.io/galleries/</loc>
+  <lastmod>2016-02-15T13:31:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://Epidemiologia.github.io/listings/</loc>
+  <lastmod>2016-02-15T12:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://Epidemiologia.github.io/posts/welcome/</loc>
+  <lastmod>2016-02-15T18:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://Epidemiologia.github.io/stories/research/</loc>
+  <lastmod>2016-02-15T12:40:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://Epidemiologia.github.io/stories/team/</loc>
+  <lastmod>2016-02-15T12:40:00Z</lastmod>
+ </url>
+</urlset>

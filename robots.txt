@@ -1,0 +1,4 @@
+Sitemap: https://Epidemiologia.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: Epidemiologia.github.io
