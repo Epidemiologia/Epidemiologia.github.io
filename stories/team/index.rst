@@ -19,7 +19,7 @@ Research focus:
 I am a Biologist with a deep interest in the mathematical modeling of population dynamics.
 I Most commonly work with Problems derived from epidemiology, but I try to combine ideas from Ecology an Evolution, into the analysis of the problems.
 
-Mathematically, I work with Ordinary Differential Equations, Difference Equations and Stochastic Differential Equations. I try to keep models as close as posssible to data, using them as investigative tools to build theories about nature. For that I like to use tools from Bayesian Statistics to estimate the models parameters.
+Mathematically, I work with Ordinary Differential Equations, Difference Equations and Stochastic Differential Equations. I try to keep models as close as possible to data, using them as investigative tools to build theories about nature. For that I like to use tools from Bayesian Statistics to estimate the models parameters.
 
 Publications:
 -------------
