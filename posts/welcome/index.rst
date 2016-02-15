@@ -7,4 +7,4 @@
 .. description: 
 .. type: text
 
-Write your post here.
+This is our research group's website. Here you will find information about our research interests and projects.
