@@ -7,4 +7,6 @@
 .. description: 
 .. type: text
 
-Write your page here.
+.. image:: flavio.coelho_0.jpg
+
+    Flávio Codeço Coelho, Associate Professor
