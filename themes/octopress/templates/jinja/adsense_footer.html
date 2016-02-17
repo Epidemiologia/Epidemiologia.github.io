@@ -1,0 +1,12 @@
+{% if google_ads_footer %}
+<div style="margin-left: auto; margin-right: auto;">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle"
+       style="display:inline-block;width:{{ google_ads_footer.width|default(728) }}px;height:{{ google_ads_footer.height|default(90)}}px"
+       data-ad-client="ca-pub-{{ google_ads_footer.pub }}"
+       data-ad-slot="{{ google_ads_footer.slot }}"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+{% endif %}

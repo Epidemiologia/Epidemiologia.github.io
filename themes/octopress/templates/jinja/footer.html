@@ -1,0 +1,12 @@
+<footer role="contentinfo">
+  <p>
+    {%- if content_footer %}
+    {{ content_footer }}
+    {%- else %}
+    Contents &copy; {date}
+    <a href="mailto:{email}">{author}</a>
+    - Powered by <a href="http://getnikola.com" rel="nofollow">Nikola</a>
+    {license}
+    {%- endif %}
+  </p>
+</footer>

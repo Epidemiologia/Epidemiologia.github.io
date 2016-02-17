@@ -1,0 +1,19 @@
+{% extends 'jinja/layout.html' %}
+
+{% block extra_head %}
+{% endblock %}
+
+{% block content %}
+<article>
+  <header>
+    <h1 class="entry-title"><a href="{{ post.url }}">{{ title }}</a></h1>
+  </header>
+
+  <div class="entry-content">
+    {{ post.text() }}
+  </div>
+
+  {% include 'jinja/adsense_footer.html' %}
+</article>
+
+{% endblock %}

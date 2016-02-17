@@ -1,0 +1,17 @@
+<header role="banner">{{ role_header }}</header>
+{% block navigation %}
+{%  include 'jinja/navigation.html' %}
+{% endblock %}
+
+<div id="main">
+  <div id="content">
+    {% block content %}
+    {% endblock %}
+    <aside class="sidebar">
+      {% include 'jinja/sidebar.html' %}
+    </aside>
+  </div>
+</div>
+<footer role="contentinfo">
+  {% include 'jinja/footer.html' %}
+</footer>

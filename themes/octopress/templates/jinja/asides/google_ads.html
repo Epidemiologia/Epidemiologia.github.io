@@ -1,0 +1,8 @@
+{% if google_ads %}
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:inline-block;width:{{ google_ads.width|default(180) }}px;height:{{ google_ads.height|default(150)}}px" data-ad-client="ca-pub-{{ google_ads.pub }}" data-ad-slot="{{ google_ads.slot }}"></ins>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+{% endif %}

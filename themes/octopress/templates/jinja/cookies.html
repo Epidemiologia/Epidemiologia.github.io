@@ -1,0 +1,10 @@
+<script src="/assets/js/cookiechoices.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+  cookieChoices.showCookieConsentBar(
+  "{{ cookies_message | default('This web contains cookies') }}",
+  "{{ cookies_close | default('close message') }}",
+  "{{ cookies_more | default('learn more') }}",
+  "{{ cookies_url | default('http://example.com') }}" );
+  });
+</script>

@@ -1,0 +1,7 @@
+<aside class="sidebar thirds">
+  {% for aside in asides %}
+  <section>
+    {% include 'jinja/asides/%s.html' % aside %}
+  </section>
+  {% endfor %}
+</aside>

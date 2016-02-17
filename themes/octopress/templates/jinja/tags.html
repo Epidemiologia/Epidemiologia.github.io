@@ -1,0 +1,22 @@
+{% extends 'jinja/layout.html' %}
+
+{% block content %}
+<article role="article">
+  <header>
+    <h1 class="entry-title">Tags</h1>
+  </header>
+
+  <div id="blog-archives">
+    {% if items %}
+    <ul>
+      {%   for text, link in items %}
+      <li class="categories">
+        <a class="category" href="{{ link }}" rel="tag">{{ text }}</a>
+      </li>
+      {%  endfor %}
+    </ul>
+
+    {% endif %}
+  </div>
+</article>
+{% endblock %}
