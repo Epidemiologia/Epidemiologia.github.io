@@ -140,8 +140,8 @@ NAVIGATION_LINKS = {
 }
 
 # Name of the theme to use.
-THEME = "octopress"
-# THEME = "material-theme"
+# THEME = "octopress"
+THEME = "material-theme"
 # THEME = "bootstrap3"
 
 # Primary color of your theme. This will be used to customize your theme and
@@ -283,7 +283,7 @@ LOGO_URL = 'galleries/logo_pq.png'
 
 # If you want to hide the title of your website (for example, if your logo
 # already contains the text), set this to False.
-SHOW_BLOG_TITLE = False
+SHOW_BLOG_TITLE = True
 
 # Writes tag cloud data in form of tag_cloud_data.json.
 # Warning: this option will change its default value to False in v8!
