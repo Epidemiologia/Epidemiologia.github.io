@@ -15,7 +15,7 @@
  </url>
  <url>
   <loc>https://Epidemiologia.github.io/archive.html</loc>
-  <lastmod>2016-02-17T11:24:00Z</lastmod>
+  <lastmod>2016-02-17T11:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://Epidemiologia.github.io/categories/</loc>
@@ -31,7 +31,7 @@
  </url>
  <url>
   <loc>https://Epidemiologia.github.io/es/archive.html</loc>
-  <lastmod>2016-02-17T11:24:00Z</lastmod>
+  <lastmod>2016-02-17T11:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://Epidemiologia.github.io/es/categories/</loc>
@@ -44,20 +44,20 @@
  <url>
   <loc>https://Epidemiologia.github.io/es/posts/welcome/</loc>
   <lastmod>2016-02-17T11:24:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://Epidemiologia.github.io/posts/welcome/" />
   <xhtml:link rel="alternate" hreflang="pt" href="https://Epidemiologia.github.io/pt/posts/welcome/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://Epidemiologia.github.io/posts/welcome/" />
  </url>
  <url>
   <loc>https://Epidemiologia.github.io/es/stories/research/</loc>
   <lastmod>2016-02-17T11:24:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://Epidemiologia.github.io/stories/research/" />
   <xhtml:link rel="alternate" hreflang="pt" href="https://Epidemiologia.github.io/pt/stories/research/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://Epidemiologia.github.io/stories/research/" />
  </url>
  <url>
   <loc>https://Epidemiologia.github.io/es/stories/team/</loc>
   <lastmod>2016-02-17T11:24:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="en" href="https://Epidemiologia.github.io/stories/team/" />
   <xhtml:link rel="alternate" hreflang="pt" href="https://Epidemiologia.github.io/pt/stories/team/" />
+  <xhtml:link rel="alternate" hreflang="en" href="https://Epidemiologia.github.io/stories/team/" />
  </url>
  <url>
   <loc>https://Epidemiologia.github.io/galleries/</loc>
@@ -70,8 +70,8 @@
  <url>
   <loc>https://Epidemiologia.github.io/posts/welcome/</loc>
   <lastmod>2016-02-15T18:52:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="es" href="https://Epidemiologia.github.io/es/posts/welcome/" />
   <xhtml:link rel="alternate" hreflang="pt" href="https://Epidemiologia.github.io/pt/posts/welcome/" />
+  <xhtml:link rel="alternate" hreflang="es" href="https://Epidemiologia.github.io/es/posts/welcome/" />
  </url>
  <url>
   <loc>https://Epidemiologia.github.io/pt/</loc>
@@ -83,7 +83,7 @@
  </url>
  <url>
   <loc>https://Epidemiologia.github.io/pt/archive.html</loc>
-  <lastmod>2016-02-17T11:24:00Z</lastmod>
+  <lastmod>2016-02-17T11:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://Epidemiologia.github.io/pt/categories/</loc>
@@ -114,13 +114,13 @@
  <url>
   <loc>https://Epidemiologia.github.io/stories/research/</loc>
   <lastmod>2016-02-15T12:40:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="es" href="https://Epidemiologia.github.io/es/stories/research/" />
   <xhtml:link rel="alternate" hreflang="pt" href="https://Epidemiologia.github.io/pt/stories/research/" />
+  <xhtml:link rel="alternate" hreflang="es" href="https://Epidemiologia.github.io/es/stories/research/" />
  </url>
  <url>
   <loc>https://Epidemiologia.github.io/stories/team/</loc>
   <lastmod>2016-02-15T12:40:00Z</lastmod>
-  <xhtml:link rel="alternate" hreflang="es" href="https://Epidemiologia.github.io/es/stories/team/" />
   <xhtml:link rel="alternate" hreflang="pt" href="https://Epidemiologia.github.io/pt/stories/team/" />
+  <xhtml:link rel="alternate" hreflang="es" href="https://Epidemiologia.github.io/es/stories/team/" />
  </url>
 </urlset>
