@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://Epidemiologia.github.io/es/galleries/rss.xml</loc>
-  <lastmod>2016-02-17T12:11:00Z</lastmod>
+  <lastmod>2016-02-17T12:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://Epidemiologia.github.io/es/rss.xml</loc>
@@ -15,11 +15,11 @@
  </sitemap>
  <sitemap>
   <loc>https://Epidemiologia.github.io/galleries/rss.xml</loc>
-  <lastmod>2016-02-17T12:11:00Z</lastmod>
+  <lastmod>2016-02-17T12:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://Epidemiologia.github.io/pt/galleries/rss.xml</loc>
-  <lastmod>2016-02-17T12:11:00Z</lastmod>
+  <lastmod>2016-02-17T12:56:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://Epidemiologia.github.io/pt/rss.xml</loc>
@@ -31,6 +31,6 @@
  </sitemap>
  <sitemap>
   <loc>https://Epidemiologia.github.io/sitemap.xml</loc>
-  <lastmod>2016-02-17T12:11:00Z</lastmod>
+  <lastmod>2016-02-17T12:56:00Z</lastmod>
  </sitemap>
 </sitemapindex>
