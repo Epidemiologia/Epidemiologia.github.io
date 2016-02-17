@@ -1,0 +1,23 @@
+{% extends 'jinja/layout.html' %}
+
+
+{% block content %}
+<article role="article">
+  <header>
+    <h1 class="entry-title">{{ title }}</h1>
+  </header>
+
+  <div id="blog-archives">
+    {% for post in posts %}
+    <article>
+      <h1><a href="{{ post.permalink() }}">{{ post.title() }}</a></h1>
+      <time datetime="{{ post.date.isoformat() }}">
+        <span class='month'>{{ post.formatted_date('%b') }}</span>
+        <span class='day'>{{ post.date.day }}</span>
+        <span class='year'>{{ post.date.year }}</span>
+      </time>
+    </article>
+    {% endfor %}
+  </div>
+</article>
+{% endblock %}

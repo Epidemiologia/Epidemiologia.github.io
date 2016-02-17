@@ -1,0 +1,30 @@
+<meta charset="utf-8">
+<title>{{ blog_title }}</title>
+<meta name="author" content="{{ author }}">
+<meta name="Generator" content="Nikola">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ description }}">
+
+<link href="{{ root_url }}/{{ url }}" rel="canonical">
+<link href="/assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+<link href="/assets/css/rst.css" media="screen, projection" rel="stylesheet" type="text/css">
+<link href="/assets/css/code.css" media="screen, projection" rel="stylesheet" type="text/css">
+{% if has_custom_css %}
+<link href="/assets/css/custom.css" media="screen, projection" rel="stylesheet" type="text/css">
+{% endif %}
+{% if rss_link %}<link href="{{ rss_link }}" rel="alternate" title="{{ title }}" type="application/atom+xml">{% endif %}
+{% if favicon %}<link href="{{ favicon }}" rel="icon">{% endif %}
+
+<script src="/assets/js/jXHR.js" type="text/javascript" ></script>
+<script async="" src="/assets/js/plusone.js" gapi_processed="true" type="text/javascript"></script>
+<script id="facebook-jssdk" async="" src="/assets/js/all.js"></script>
+<script async="" src="/assets/js/ga.js" type="text/javascript"></script>
+<script src="/assets/js/modernizr-2.0.js" type="text/javascript"></script>
+
+<script src="/assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="/assets/js/octopress.js" type="text/javascript"></script>
+
+{% include 'jinja/og_card.html' %}
+{% include 'jinja/twitter_card.html' %}

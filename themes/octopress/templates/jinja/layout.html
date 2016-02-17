@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="{{ lang }}"><!--<![endif]-->
+
+<head>
+{% block head %}
+  {% include 'jinja/head.html' %}
+{% endblock %}
+</head>
+<body>
+{% block body %}
+
+<header role="banner">
+  <hgroup>
+    <h1><a href="{{ url }}">{{ blog_title }}</a></h1>
+    <h2>{{ blog_subtitle | default(blog_description) }}</h2>
+  </hgroup>
+</header>
+{% block navigation %}
+{%  include 'jinja/navigation.html' %}
+{% endblock %}
+
+<div id="main">
+  <div id="content">
+    <div id="blog-index">
+      {% block content %}
+      {% endblock %}
+    </div>
+    <aside class="sidebar">
+      {% include 'jinja/sidebar.html' %}
+    </aside>
+  </div>
+</div>
+{% include 'jinja/footer.html' %}
+
+{% endblock %}
+
+{% include 'jinja/cookies.html' %}
+{% include 'jinja/google_analytics.html' %}
+</body>
+</html>

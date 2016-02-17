@@ -1,0 +1,8 @@
+{% if disqus %}
+<h1>Last comments</h1>
+<div id="recentcomments" class="dsq-widget">
+  <script type="text/javascript"
+	        src="http://{{ disqus.username }}.disqus.com/recent_comments_widget.js?num_items={{ disqus.num_items | default(5) }}&hide_avatars=0&avatar_size=32&excerpt_length=150">
+  </script>
+</div>
+{% endif %}

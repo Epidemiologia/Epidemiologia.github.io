@@ -1,0 +1,99 @@
+{% extends 'jinja/layout.html' %}
+
+{% block extra_head %}
+{% endblock %}
+
+{% block content %}
+<article>
+  <header>
+    <h1 class="entry-title"><a href="{{ post.url }}">{{ title }}</a></h1>
+    <p class="meta">
+      <time datetime="{{ post.date.isoformat() }}" data-updated="true"></time>
+      | <a href="{{ post.url }}/#disqus_thread" data-disqus-identifier="{{ post.url }}">Comments</a>
+    </p>
+  </header>
+
+  <div class="entry-content">
+    {{ post.text() }}
+  </div>
+
+  <footer>
+    <p class="meta">
+      <span class="byline author vcard">Posted by <span class="fn">{{ author | default(blog_author) }}</span></span>
+      <time datetime="{{ post.date.isoformat() }}" data-updated="true"></time>
+      <span class="categories">
+        {% for tag in post.tags %}
+        <a class="category" href="{{ _link('tag', tag) }}" rel="tag">{{ tag }}</a>
+        {% endfor %}
+      </span>
+    </p>
+    <div class="sharing">
+
+      {% if twitter_card and twitter_card.use_twitter_cards %}
+      <iframe id="twitter-widget-0" scrolling="no"
+              frameborder="0"
+              allowtransparency="true"
+              src="http://platform.twitter.com/widgets/tweet_button.b68aed79dd9ad79554bcd8c9141c94c8.en.html#_=1422556668628&amp;count=horizontal&amp;counturl={{ post.url }}%2F&amp;dnt=false&amp;id=twitter-widget-0&amp;lang=en&amp;original_referer={{ post.url }}%2F&amp;size=m&amp;text={{ post.title }}%20-%20{{ blog_title }}&amp;url={{ post.url }}%2F&amp;via={{ twitter_card.site}}" class="twitter-share-button twitter-tweet-button twitter-share-button twitter-count-horizontal" title="Twitter Tweet Button"
+              data-twttr-rendered="true"
+              style="width: 109px; height: 20px;">
+      </iframe>
+      {% endif %}
+
+      <div id="___plusone_0"
+           style="text-indent: 0px; margin: 0px; padding: 0px; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px; background: transparent;">
+        <iframe frameborder="0"
+                hspace="0"
+                marginheight="0"
+                marginwidth="0"
+                scrolling="no"
+                style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;"
+                tabindex="0"
+                vspace="0"
+                width="100%"
+                id="I0_1422556667839"
+                name="I0_1422556667839"
+                src="https://apis.google.com/se/0/_/+1/fastbutton?usegapi=1&amp;size=medium&amp;origin={{ blog_url }}&amp;url={{ post.url }}&amp;gsrc=3p&amp;ic=1&amp;jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.es.kpyNTiySrIM.O%2Fm%3D__features__%2Fam%3DAQ%2Frt%3Dj%2Fd%3D1%2Ft%3Dzcms%2Frs%3DAGLTcCPCLPJrS-NDHa-tTLLP0jBb4ou9Mg#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&amp;id=I0_1422556667839&amp;parent={{ blog_url }}&amp;pfname=&amp;rpctoken=14011443"
+                data-gapiattached="true"
+                title="+1">
+      </iframe>
+      </div>
+
+
+      <div class="fb-like fb_iframe_widget"
+           data-send="true"
+           data-width="450"
+           data-show-faces="false"
+           fb-xfbml-state="rendered"
+           fb-iframe-plugin-query="app_id=212934732101925&amp;href={{ post.url }}%2F&amp;locale=en_US&amp;sdk=joey&amp;send=true&amp;show_faces=false&amp;width=450">
+        <span style="vertical-align: bottom; width: 450px; height: 20px;">
+          <iframe name="f30b32ce4"
+                  width="450px"
+                  height="1000px"
+                  frameborder="0"
+                  allowtransparency="true"
+                  scrolling="no"
+                  title="fb:like Facebook Social Plugin"
+                  src="http://www.facebook.com/plugins/like.php?app_id=212934732101925&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FDU1Ia251o0y.js%3Fversion%3D41%23cb%3Df2222b0afc%26domain%3D{{ site_url }}%26origin%3D{{ site_url }}%252Ff33e73f944%26relation%3Dparent.parent&amp;href={{ post.url }}%2F&amp;locale=en_US&amp;sdk=joey&amp;send=true&amp;show_faces=false&amp;width=450" style="border: none; visibility: visible; width: 450px; height: 20px;"
+                  class="">
+          </iframe>
+        </span>
+      </div>
+
+    </div>
+
+    <p class="meta">
+      {% if post.prev_post %}
+      <a class="basic-alignment left" rel="prev" href="{{ post.prev_post.permalink() }}" title="{{ post.prev_post.title() }}" type="text/html">&laquo; {{ post.prev_post.title() }}</a>
+      {% endif %}
+      {% if post.next_post %}
+      <a class="basic-alignment right" rel="next" href="{{ post.next_post.permalink() }}" title="{{ post.next_post.title() }}" type="text/html">{{ post.next_post.title() }} &raquo;</a>
+      {% endif %}
+    </p>
+  </footer>
+
+  {% include 'jinja/adsense_footer.html' %}
+
+  {% include 'jinja/disqus.html' %}
+</article>
+
+{% endblock %}

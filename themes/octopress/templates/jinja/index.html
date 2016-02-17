@@ -1,0 +1,21 @@
+{% extends 'jinja/layout.html' %}
+{% import 'comments_helper.tmpl' as comments with context %}
+
+{% block content %}
+{% for post in posts %}
+<article>
+  <header>
+    <h1 class="entry-title"><a href="{{ post.permalink() }}">{{ post.title() }}</a></h1>
+    <p class="meta">
+      <time datetime="{{ post.date.isoformat() }}">{{ post.formatted_date(date_format) }}</time>
+      | <a href="{{ post.permalink() }}#disqus_thread" data-disqus-identifier="{{ url }}">Comments</a>
+    </p>
+  </header>
+
+  <div class="entry-content">
+    {{ post.text(teaser_only=index_teasers) }}
+  </div>
+</article>
+
+{% endfor %}
+{% endblock %}
