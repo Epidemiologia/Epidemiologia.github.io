@@ -8,4 +8,4 @@
 .. type: text
 
 
-This week a new technical advising committee was created by the Rio de janeiro municipality. Professor Flavio Codeço Coelho was one of the academics named, to be part of the committee. The committee will have among its responsibilities to advise the design, monitoring and evaluation of public health policies related to the combat of such diseases.
+This week a new technical advising committee was created by the Rio de janeiro municipality. Professor `Flavio Codeço Coelho <link://slug/team>`__ was one of the academics named, to be part of the committee. The committee will have among its responsibilities to advise the design, monitoring and evaluation of public health policies related to the combat of such diseases.
