@@ -176,10 +176,12 @@ THEME_COLOR = '#5670d4'
 POSTS = (
     ("posts/*.rst", "posts", "post.tmpl"),
     ("posts/*.txt", "posts", "post.tmpl"),
+    ("posts/*.odt", "posts", "post.tmpl"),
 )
 PAGES = (
     ("stories/*.rst", "stories", "story.tmpl"),
     ("stories/*.txt", "stories", "story.tmpl"),
+    ("stories/*.odt", "posts", "post.tmpl"),
 )
 
 
@@ -264,6 +266,10 @@ COMPILERS = {
     # with many of the others.
     # "pandoc": ('.rst', '.md', '.txt'),
 }
+
+# Add the odt compiler to your COMPILERS dict.
+COMPILERS["odt"] = ('.odt',)
+
 
 # Create by default posts in one file format?
 # Set to False for two-file posts, with separate metadata.
@@ -816,7 +822,7 @@ COMMENT_SYSTEM = "facebook"
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
 # is in the manual.
-COMMENT_SYSTEM_ID = ""
+COMMENT_SYSTEM_ID = "fccoelho"
 
 # Enable annotations using annotateit.org?
 # If set to False, you can still enable them for individual posts and pages
