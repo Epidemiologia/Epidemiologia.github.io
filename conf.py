@@ -129,18 +129,30 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 #          else they won’t be highlighted when active.
 
 NAVIGATION_LINKS = {
+    # DEFAULT_LANG: (
+    #     ("/index.html", "Home"),
+    #     ("/stories/team/index.html", "Team"),
+    #     ("/stories/research/index.html", "Research"),
+    #     ("/archive.html", "Archive"),
+    #     ("/categories/", "Tags"),
+    #     ("/rss.xml", "RSS feed"),
+    # ),
     DEFAULT_LANG: (
-        ("/index.html", "Home"),
-        ("/stories/team/index.html", "Team"),
-        ("/stories/research/index.html", "Research"),
-        ("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
-        ("/rss.xml", "RSS feed"),
+        ('/index.html', 'Home', 'icon-home'),
+        ("/stories/team/index.html", "Team", 'icon-group'),
+        ("/stories/research/index.html", "Research", 'icon-gears'),
+        ('/archive.html', 'Archives', 'icon-folder-open-alt'),
+        ('/categories/index.html', 'Tags', 'icon-tags'),
+        ('/rss.xml', 'RSS', 'icon-rss'),
+        ('https://getnikola.com', 'About me', 'icon-user'),
+        ('https://twitter.com/fccoelho', 'My Twitter', 'icon-twitter'),
+        ('https://github.com/fccoelho', 'My Github', 'icon-github'),
     ),
+
 }
 
 # Name of the theme to use.
-THEME = "octopress"
+THEME = "zen-jinja"
 # THEME = "material-theme"
 # THEME = "bootstrap3"
 
