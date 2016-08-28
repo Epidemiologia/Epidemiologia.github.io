@@ -144,7 +144,7 @@ NAVIGATION_LINKS = {
         ('/archive.html', 'Archives', 'icon-folder-open-alt'),
         ('/categories/index.html', 'Tags', 'icon-tags'),
         ('/rss.xml', 'RSS', 'icon-rss'),
-        ('https://getnikola.com', 'About me', 'icon-user'),
+        ('https://emap.fgv.br', 'About us', 'icon-user'),
         ('https://twitter.com/fccoelho', 'My Twitter', 'icon-twitter'),
         ('https://github.com/fccoelho', 'My Github', 'icon-github'),
     ),

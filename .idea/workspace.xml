@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f55df74-cca4-41ac-a9b1-438401f87fdc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf.py" afterPath="$PROJECT_DIR$/conf.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/state_data.json" afterPath="$PROJECT_DIR$/state_data.json" />
     </list>
     <ignored path="Epidemiologia.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +28,10 @@
       <file leaf-file-name="conf.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="142" column="64" selection-start-line="142" selection-start-column="64" selection-end-line="142" selection-end-column="64" />
+            <state relative-caret-position="257">
+              <caret line="146" column="57" selection-start-line="146" selection-start-column="57" selection-end-line="146" selection-end-column="57" />
               <folding>
-                <marker date="1472404109263" expanded="true" signature="4156:4396" ph="..." />
+                <marker date="1472404375099" expanded="true" signature="4156:4396" ph="..." />
               </folding>
             </state>
           </provider>
@@ -160,10 +162,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="142" column="64" selection-start-line="142" selection-start-column="64" selection-end-line="142" selection-end-column="64" />
+        <state relative-caret-position="257">
+          <caret line="146" column="57" selection-start-line="146" selection-start-column="57" selection-end-line="146" selection-end-column="57" />
           <folding>
-            <marker date="1472404109263" expanded="true" signature="4156:4396" ph="..." />
+            <marker date="1472404375099" expanded="true" signature="4156:4396" ph="..." />
           </folding>
         </state>
       </provider>
