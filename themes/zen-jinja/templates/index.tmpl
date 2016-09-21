@@ -7,6 +7,9 @@
 {% block content %}
     <h1>Center for Mathematical Epidemiology</h1>
 
+    <p>The center is a Research Center Functioning inside the <a href="http://emap.fgv.br">school of applied mathematics</a> of <a href="http://www.fgv.br">Getulio Vargas Foundation</a>.</p>
+
+    <h2>Latest News</h2>
     {% for post in posts %}
         <div class="post">
             <h1 class="title"><a href="{{ post.permalink() }}">{{ post.title() }}</a></h1>
