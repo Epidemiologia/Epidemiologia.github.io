@@ -146,7 +146,7 @@ lang="{{ lang }}">
 {#  Override only the functions that differ from base/templates/post_header.tmpl #}
 {% macro html_title() %}
 {% if title and not post.meta('hidetitle') %}
-    <h1 class="p-name entry-title" itemprop="headline name">{{ title|e }}</h1>
+    <h3 class="p-name entry-title" itemprop="headline name">{{ title|e }}</h3>
 {% endif %}
 {% endmacro %}
 

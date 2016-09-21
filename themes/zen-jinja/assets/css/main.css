@@ -2413,19 +2413,19 @@ pre.code {
 .backlink a:after {
   content: ' /';
 }
-.backlink + .postbox > h1.title,
-.backlink + .post > h1.title,
-.backlink + h1.title {
+.backlink + .postbox > h3.title,
+.backlink + .post > h3.title,
+.backlink + h3.title {
   margin-top: 0;
 }
-.post h1.title {
+.post h3.title {
   margin: 6px 0;
 }
-.post h1.title a {
+.post h3.title a {
   color: inherit;
 }
-.post h1.title a:hover,
-.post h1.title a:focus {
+.post h3.title a:hover,
+.post h3.title a:focus {
   color: inherit;
 }
 .post .backlink {
@@ -2434,9 +2434,9 @@ pre.code {
 .post .backlink a:after {
   content: ' /';
 }
-.post .backlink + .postbox > h1.title,
-.post .backlink + .post > h1.title,
-.post .backlink + h1.title {
+.post .backlink + .postbox > h3.title,
+.post .backlink + .post > h3.title,
+.post .backlink + h3.title {
   margin-top: 0;
 }
 .post .meta {
